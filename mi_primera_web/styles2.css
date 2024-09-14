@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a i {
+    color: red;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+header {
+    display: flex;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: dimgrey;
+    padding: 1em;
+    width: 100%;
+    color: ghostwhite;
+}
+
+footer h3 {
+    color: red;
+}
+
+h3 {
+    color: black;
+}
+
+/*Menu*/
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: green;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}

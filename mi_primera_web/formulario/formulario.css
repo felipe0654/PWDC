@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+ol,ul {
+    list-style: none;
+    color: azure;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a i {
+    color: red;
+    font-size: 1.1em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+header {
+    display: flex;
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+    align-items: center;
+    }
+
+.container {
+    max-width: 100px; /* Define el ancho máximo del contenedor */
+    margin: 10px auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Agrega un poco de espacio alrededor del formulario */
+    border: 15x; /* Agrega un borde al contenedor */
+    border-radius: 15px; /* Agrega bordes redondeados al contenedor */
+    }
+
+.form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+.form_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 3px;
+    }
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 300px; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 5px solid #ccc;
+    border-radius: 4px;
+    }
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+    }
+
+button {
+    background-color: chartreuse;
+    width: 300px;
+    font-family: cursive;
+    }
+
+button:hover {
+    background-color: darkgreen;
+    
+    }
+
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+.checkbtn {
+    display: block;
+    }
+    
+    #encabezado ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    text-align: center;
+    
+    top: 80px;
+    left: 100%;
+    transition: all 0.5s;
+    }
+    #ckeck:checked ~ ul {
+    left: 0;
+    display: block;
+    }
+    
+    #encabezado nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    }
+    
+    #encabezado nav ul li a {
+    font-size: 20px;
+    }
+
+    }

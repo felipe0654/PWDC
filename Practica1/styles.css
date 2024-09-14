@@ -1,0 +1,19 @@
+div {
+    background-color: rgba(123, 255, 0, 0.596);
+    color: aliceblue;
+}
+
+p{
+    background-color: red;
+}
+div {color: rgb(255, 127, 127);}
+
+.container {
+    color: rgb(4, 0, 255);
+}
+.titulo1 {
+    background-color: rgba(29, 27, 27, 0.801);
+    padding: 10px solid blue ;
+    border: 5px ;
+    margin: 20px  ;
+}
